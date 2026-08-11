@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
         with:
           fetch-depth: 0
           ref: main
@@ -36,13 +36,14 @@ jobs:
           fail_on_error: true
           options: |
             {
-              "username": "${{ github.repository_owner }}",
+              "username": "Nicolas-12000",
               "hide": "issues,prs",
               "hide_rank": true,
               "show_icons": true,
               "include_all_commits": true,
               "custom_title": "GitHub Activity",
-              "card_width": 495
+              "card_width": 495,
+              "theme": "transparent"
             }
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -54,13 +55,14 @@ jobs:
           fail_on_error: true
           options: |
             {
-              "username": "${{ github.repository_owner }}",
+              "username": "Nicolas-12000",
               "layout": "compact",
               "langs_count": 5,
               "hide": "c++,html,css",
               "size_weight": 0.5,
               "count_weight": 0.5,
-              "custom_title": "Languages"
+              "custom_title": "Languages",
+              "theme": "transparent"
             }
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
