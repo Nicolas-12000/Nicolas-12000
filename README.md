@@ -82,8 +82,8 @@ designed around backend architecture, APIs and transactional flows.
 ## 📊 GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nicolas-12000&show_icons=true&hide_border=true&rank_icon=github" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nicolas-12000&layout=compact&hide_border=true" height="165"/>
+  <img src="./profile/stats.svg" height="165"/>
+  <img src="./profile/top-langs.svg" height="165"/>
 </p>
 
 ---
