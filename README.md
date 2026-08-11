@@ -70,7 +70,7 @@ banking operations, transactional flows and software architecture.
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,python,django,aws,docker,linux,postgres,mysql,mongodb,git,githubactions" />
+  <img src="https://skillicons.dev/icons?i=java,spring,python,django,aws,docker,linux,postgres,redis,mongodb,git,githubactions" />
 </p>
 
 ---
